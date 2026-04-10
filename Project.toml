@@ -1,7 +1,7 @@
 name = "HighDimPDE"
 uuid = "57c578d5-59d4-4db8-a490-a9fc372d19d2"
-authors = ["Victor Boussange <vic.boussange@gmail.com>"]
 version = "2.1.0"
+authors = ["Victor Boussange <vic.boussange@gmail.com>"]
 
 [deps]
 CUDA = "052768ef-5323-5732-b1bb-66c8b64840ba"
@@ -24,7 +24,7 @@ cuDNN = "02a925ec-e4fe-4b08-9a7e-0d78e3d38ccd"
 
 [compat]
 Aqua = "0.8"
-CUDA = "5.4.2"
+CUDA = "5.4.2, 6"
 DiffEqBase = "6.151"
 Distributions = "v0.25.107"
 DocStringExtensions = "0.9.3"
